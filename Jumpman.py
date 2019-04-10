@@ -202,9 +202,9 @@ def date(row, prop):
 
 
 ###plot on delivery_speed ###
-# df.boxplot(column='delivery_speed',by='vehicle_type')
-# plt.title('delivery_speed by vehicle_type')
-# plt.xlabel('Vehicle_type')
-# plt.ylabel('delivery_speed')
-# plt.show()
+df.boxplot(column='delivery_speed',by='vehicle_type')
+plt.title('delivery_speed by vehicle_type')
+plt.xlabel('Vehicle_type')
+plt.ylabel('delivery_speed')
+plt.show()
 
